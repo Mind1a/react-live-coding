@@ -40,6 +40,7 @@ const App = () => {
       setCurrentQuestion(currentQuestion + 1);
     } else {
       setResult(true);
+      getQuizApi();
     }
   };
 
